@@ -1,0 +1,69 @@
+body{
+    background-color: black;
+    font-family: monospace;
+}
+
+.container .next #end{
+    margin-left: 1000px;
+    margin-bottom: 100px;
+    background-color: aquamarine;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    
+}
+
+#the-end{
+    visibility: hidden;
+}
+
+.container #other{
+    margin-left: 50px;
+    margin-bottom: 100px;
+    background-color: aquamarine;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.typewriter{
+    display: flex;
+    justify-content: center;
+}
+
+.typewriter h1{
+    color: white;
+    font-family: monospace;
+    font-size: 5rem;
+    margin-inline: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right:1px solid;
+    animation: typing 3s steps(22) forwards,
+    blink 1s step-end infinite;
+    visibility: hidden;
+}
+
+.letter{
+    margin-left: 500px;
+}
+
+@keyframes typing {
+    from{
+        width: 0;
+    }
+
+    to{
+        width: 100%;
+    }
+}
+
+@keyframes blink{
+    50%{
+        border-color: transparent;
+    }
+}
