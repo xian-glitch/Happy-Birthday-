@@ -10,8 +10,10 @@ const end = document.getElementById('the-end')
 function myfunction(){
     body.style.backgroundColor = ('white');
     othButton.style.borderColor = ('black');
-    othButton.style.visibility = ('hidden');
-    end.style.visibility = ('visible')
+    if(othButton.onclick){
+        othButton.style.display = ('none');
+    }else{
+    };    
 }
 
 function myOth(){

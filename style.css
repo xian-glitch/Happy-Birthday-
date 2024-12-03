@@ -15,7 +15,18 @@ body{
 }
 
 #the-end{
+    
+    margin-bottom: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
     visibility: hidden;
+}
+
+.giphy-embed{
+    display: none;
 }
 
 .container #other{
@@ -27,7 +38,11 @@ body{
     width: 200px;
     height: 30px;
     visibility: hidden;
-    cursor: pointer;
+}
+
+
+.container #other:active{
+    visibility: hidden;
 }
 
 .typewriter{
